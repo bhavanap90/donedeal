@@ -1,4 +1,4 @@
-package dto;
+package com.vehicle.inventory_service.dto;
 
 public record VehicleRequest(
                              String vin,

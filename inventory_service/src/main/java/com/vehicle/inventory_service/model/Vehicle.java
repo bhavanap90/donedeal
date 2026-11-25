@@ -1,4 +1,4 @@
-package model;
+package com.vehicle.inventory_service.model;
 
 import jakarta.annotation.Generated;
 import lombok.AllArgsConstructor;
@@ -13,7 +13,7 @@ import lombok.Data;
 import java.time.Instant;
 
 @Data
-@Document(value = "vehicle")
+@Document(collection = "vehicles")
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder

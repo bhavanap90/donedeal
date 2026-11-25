@@ -1,8 +1,9 @@
-package util;
+package com.vehicle.inventory_service.util;
 
-import dto.VehicleRequest;
-import dto.VehicleResponse;
-import model.Vehicle;
+import com.vehicle.inventory_service.dto.VehicleRequest;
+import com.vehicle.inventory_service.dto.VehicleResponse;
+import com.vehicle.inventory_service.model.Vehicle;
+
 
 public class VehicleMapper {
     public static Vehicle buildVehicleFromRequest(VehicleRequest request) {
